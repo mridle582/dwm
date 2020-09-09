@@ -1,2 +1,2 @@
 # dwm
-My fork od DWM
+My fork of DWM
