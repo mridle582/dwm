@@ -13,12 +13,12 @@ static const char *altbarcmd        = "$HOME/.config/polybar/launch.sh";
 static const char *fonts[]          = { "source code pro:size=11" };
 static const char dmenufont[]       = "source code pro:size=11";
 static const char normbgcolor[]       = "#282828";
-static const char normbordercolor[]   = "#504945";
+static const char normbordercolor[]   = "#665c54";
 static const char normfgcolor[]       = "#ebdbb2";
 static const char selffgcolor[]       = "#282828";
-static const char selfbordercolor[]   = "#d79921";
-static const char selfbgcolor[]       = "#d79921";
-static const char urgbordercolor[]    = "#cc241d";
+static const char selfbordercolor[]   = "#d8a657";
+static const char selfbgcolor[]       = "#d8a657";
+static const char urgbordercolor[]    = "#ea6962";
 static const char *colors[][3]      = {
 	/*               fg           bg           border   */
 	[SchemeNorm] = { normfgcolor, normbgcolor, normbordercolor },
