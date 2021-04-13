@@ -1,7 +1,4 @@
 /* See LICENSE file for copyright and license details. */
-#include "/home/jdfinn/.cache/wal/colors-wal-dwm.h"
-
-/* appearance */
 static const unsigned int borderpx  = 3;        /* border pixel of windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const unsigned int gappih    = 10;       /* horiz inner gap between windows */
@@ -13,6 +10,19 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "SauceCodePro Nerd Font:size=10" };
 static const char dmenufont[]       = "SauceCodePro Nerd Font:size=10";
+static const char normbgcolor[]       = "#282828";
+static const char normbordercolor[]   = "#665c54";
+static const char normfgcolor[]       = "#ebdbb2";
+static const char selffgcolor[]       = "#282828";
+static const char selfbordercolor[]   = "#d8a657";
+static const char selfbgcolor[]       = "#d8a657";
+static const char urgbordercolor[]    = "#ea6962";
+static const char *colors[][3]      = {
+	/*               fg           bg           border   */
+	[SchemeNorm] = { normfgcolor, normbgcolor, normbordercolor },
+	[SchemeSel]  = { selffgcolor, selfbgcolor, selfbordercolor },
+	[SchemeUrg]  = { normfgcolor, normbgcolor, urgbordercolor },
+};
 
 /* tagging */
 static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
