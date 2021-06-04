@@ -10,7 +10,7 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "SauceCodePro Nerd Font:size=10" };
 static const char dmenufont[]       = "SauceCodePro Nerd Font:size=10";
-static const char normbgcolor[]       = "#282828";
+static const char normbgcolor[]       = "#3c3836";
 static const char normbordercolor[]   = "#665c54";
 static const char normfgcolor[]       = "#ebdbb2";
 static const char selffgcolor[]       = "#282828";
@@ -32,7 +32,7 @@ static const Rule rules[] = {
 	 *	WM_CLASS(STRING) = instance, class
 	 *	WM_NAME(STRING) = title
 	 */
-	
+
 	/* class      instance    title       tags mask     isfloating   monitor */
 	{ "Gimp",     NULL,       NULL,       0,            1,           -1 },
 	{ "Firefox",  NULL,       NULL,       1 << 8,       0,           -1 },
